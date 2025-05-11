@@ -3,8 +3,8 @@ import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 
 export const metadata = {
-  title: 'UnitMaster',
-  description: 'Convert SI Units Instantly',
+  title: 'Unit Cave',
+  description: 'Convert Units',
 };
 
 export default function RootLayout({ children }) {
