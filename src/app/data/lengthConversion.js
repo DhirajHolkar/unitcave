@@ -1,3 +1,7 @@
+
+
+
+// src/data/lengthConversion.js
 const toMeters = {
   nanometer: 1e-9,
   micrometer: 1e-6,
@@ -10,7 +14,6 @@ const toMeters = {
   kilometer: 1e3,
   megameter: 1e6,
   gigameter: 1e9,
-
   inch: 0.0254,
   foot: 0.3048,
   yard: 0.9144,
@@ -19,7 +22,6 @@ const toMeters = {
 };
 
 const units = Object.keys(toMeters);
-
 const conversionTable = {};
 
 units.forEach(fromUnit => {
@@ -29,24 +31,8 @@ units.forEach(fromUnit => {
   });
 });
 
-export default conversionTable;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+export default {
+  name: 'Length',
+  units,
+  conversionTable,
+};

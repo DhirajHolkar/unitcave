@@ -1,0 +1,88 @@
+
+.converter-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.category-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.category-buttons button {
+  padding: 10px 16px;
+  border: none;
+  background-color: #eee;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+.category-buttons button.selected {
+  background-color: #0070f3;
+  color: white;
+}
+
+.input-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+.input-group {
+  width: 45%;
+}
+.input-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.unit-selection {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+}
+.unit-list {
+  width: 50%;
+}
+.unit-list h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.unit-list button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 6px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.unit-list button:hover {
+  background-color: #e0e0e0;
+}
+.unit-list button.selected {
+  background-color: #0070f3;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+
+
+

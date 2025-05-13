@@ -1,7 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
-import '../../../styles/onepage.css';
+import '../../../styles/details-conversion.css';
 import conversionTable from '@/app/table/ConversionTable';
 
 
