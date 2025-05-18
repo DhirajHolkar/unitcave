@@ -4,20 +4,21 @@
   margin: 40px auto;
   padding: 20px;
   text-align: center;
+  /* border: 1px solid black; */
 }
 
 .category-buttons {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 30px;
+  /* border: 1px solid black; */
 }
 .category-buttons button {
   padding: 10px 16px;
   border: none;
   background-color: #eee;
   cursor: pointer;
-  border-radius: 6px;
   transition: background-color 0.3s;
 }
 .category-buttons button.selected {
@@ -33,6 +34,7 @@
 }
 .input-group {
   width: 45%;
+  margin: 0 0.5rem;
 }
 .input-group label {
   display: block;
@@ -43,7 +45,6 @@
   width: 100%;
   padding: 10px;
   font-size: 16px;
-  border-radius: 6px;
   border: 1px solid #ccc;
 }
 
@@ -68,7 +69,6 @@
   margin-bottom: 6px;
   border: 1px solid #ccc;
   background-color: #f8f8f8;
-  border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.2s;
 }

@@ -1,8 +1,11 @@
 /* src/styles/onepage.css or a new CSS file */
 
 .conversion-links-container {
-  width: 900px;
+  max-width: 900px;
   margin: 50px auto;
+}
+.conversion-links-title{
+  text-align: center;
 }
 .conversion-links{
     display: flex;

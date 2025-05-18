@@ -38,7 +38,7 @@ const importantConversions = [
 const Links = () => {
   return (
     <div className="conversion-links-container">
-      <h3>Choose a Conversion</h3>
+      <div className='conversion-links-title'>Choose a Conversion</div>
       <div className="conversion-links">
         {importantConversions.map(([fromUnit, toUnit]) => (
           <Link

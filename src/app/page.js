@@ -5,7 +5,7 @@ import MultiCategoryConverter from '@/components/MultiCategoryConverter';
 export default function Page() {
   return(
     <>
-    <Home />;
+    {/* <Home />; */}
     <MultiCategoryConverter/>
     <Links/>
     </>
