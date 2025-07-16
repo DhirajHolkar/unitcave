@@ -45,7 +45,7 @@ export default function Navbar() {
 
         <div className="navbar__links navbar-item">
           <Link href="/" className={pathname === '/' ? 'active-link' : ''}>Home</Link>
-          <Link href="/anime" className={pathname === '/about' ? 'active-link' : ''}>About</Link>
+          <Link href="/about" className={pathname === '/about' ? 'active-link' : ''}>About Us</Link>
         </div>
 
 
