@@ -37,7 +37,7 @@ input[type="text"] {
   justify-content: space-between;
 }
 
-button {
+.details-button {
   padding: 10px 15px;
   font-size: 16px;
   cursor: pointer;
@@ -47,6 +47,6 @@ button {
   color: white;
 }
 
-button:hover {
+.details-button:hover {
   background-color: #005bb5;
 }

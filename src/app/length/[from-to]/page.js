@@ -58,8 +58,8 @@ export default function DynamicConverterPage() {
       />
 
       <div className="button-group">
-        <button onClick={clearFields}>Clear</button>
-        <button onClick={convert}>Convert</button>
+        <button className='details-button' onClick={clearFields}>Clear</button>
+        <button className='details-button' onClick={convert}>Convert</button>
       </div>
     </div>
   );

@@ -36,7 +36,7 @@ export default function Navbar() {
 
         <div className="navbar__logo navbar-item">
           <Link href="/">
-            <img src="unitcave-logo.png" alt="" className="navbar-large-logo" />
+            <img src="unitcave-logo1.png" alt="" className="navbar-large-logo" />
             <img src="unitcave-icon.png" alt="" className="navbar-small-logo" />
           </Link>
         </div>
@@ -45,23 +45,9 @@ export default function Navbar() {
 
         <div className="navbar__links navbar-item">
           <Link href="/" className={pathname === '/' ? 'active-link' : ''}>Home</Link>
-          <Link href="/about" className={pathname === '/about' ? 'active-link' : ''}>About Us</Link>
         </div>
 
 
-        {/* <div className="navbar__search navbar-item">
-          <form onSubmit={handleSearch} style={{ display: 'flex' }}>
-            <input
-              type="text"
-              placeholder="Search..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-            />
-            <button type="submit">
-              <img src="search.svg" alt="" />
-            </button>
-          </form>
-        </div> */}
 
         {/* Hamburger icon for mobile */}
         <div className="navbar__menu-icon" onClick={toggleSidebar}>
@@ -84,7 +70,6 @@ export default function Navbar() {
         </div>
 
         <Link href="/" onClick={toggleSidebar}>Home</Link>
-        <Link href="/about" onClick={toggleSidebar}>About us</Link>
 
       </div>
 

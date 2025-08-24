@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Home Page -->
-  <url>
-    <loc>https://www.unitcave.com/</loc>
-    <lastmod>2025-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
+<url><loc>https://www.unitcave.com/</loc></url>
+<url><loc>https://www.unitcave.com/about</loc></url>
+<url><loc>https://www.unitcave.com/blogs</loc></url>
+<url><loc>https://www.unitcave.com/contact</loc></url>
+<url><loc>https://www.unitcave.com/privacy-policy</loc></url>
+<url><loc>https://www.unitcave.com/terms-and-conditions</loc></url>
 
-  <!-- About Page -->
-  <url>
-    <loc>https://www.unitcave.com/about</loc>
-    <lastmod>2025-05-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
+<url><loc>https://www.unitcave.com/length/kilometer-to-nanometer</loc></url>
 
-  <!-- Add other pages here as you expand your site -->
+<url><loc>https://www.unitcave.com/length/kilometer-to-meter</loc></url>
+<url><loc>https://www.unitcave.com/length/kilometer-to-centimeter</loc></url>
+<url><loc>https://www.unitcave.com/length/kilometer-to-millimeter</loc></url>
+<url><loc>https://www.unitcave.com/length/meter-to-centimeter</loc></url>
+<url><loc>https://www.unitcave.com/length/meter-to-millimeter</loc></url>
+<url><loc>https://www.unitcave.com/length/centimeter-to-millimeter</loc></url>
+<url><loc>https://www.unitcave.com/length/kilometer-to-yard</loc></url>
+<url><loc>https://www.unitcave.com/length/meter-to-yard</loc></url>
+<url><loc>https://www.unitcave.com/length/centimeter-to-inch</loc></url>
+
 
 </urlset>
